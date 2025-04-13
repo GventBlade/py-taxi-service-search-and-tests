@@ -57,7 +57,7 @@ class DriverSearchForm(forms.Form):
         required=False,
         label="",
         widget=forms.TextInput(attrs={"placeholder": "Select a Driver"}),
-        )
+    )
 
 
 class CarSearchForm(forms.Form):
@@ -72,5 +72,5 @@ class ManufacturerSearchForm(forms.Form):
     name = forms.CharField(
         required=False,
         label="",
-        widget=forms.TextInput(attrs={"placeholder": "Search by Manufacturer Name"})
+        widget=forms.TextInput(attrs={"placeholder": "Search by Manufacturer Name"}),
     )
